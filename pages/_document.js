@@ -25,7 +25,19 @@ class MyDocument extends Document {
                     <link rel="manifest" href="/favicon/site.webmanifest" />
                     <script type="text/javascript" src="https://vdbaa.com/pup.php?section=General&pt=2&pub=376843&ga=g"></script>
                     <script type="text/javascript" src="https://udbaa.com/bnr.php?section=General&pub=376843&format=728x90&ga=g"></script>
-            
+                    <style>
+                        {`
+                            body {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                height: 200vh;
+                                margin:0;
+                                padding: 0;
+                            }
+                        `}
+                    </style>
                 </Head>
                 <body>
                     <Main />
